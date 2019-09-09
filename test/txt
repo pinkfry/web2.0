@@ -1,0 +1,48 @@
+   <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-xs-12">
+                        <div class="contact-us-form">
+                            <form class="form-validation" autocomplete="off">
+                                <input type="email" placeholder="Email Address*" name="email">
+                                <input type="text" placeholder="Subject*" name="sub">
+                                <textarea placeholder="Your Message*" name="message"></textarea>
+                                <button class="p-bg-color hvr-trim-two">SEND MESSAGE</button>
+                            </form>
+                        </div> <!-- /.contact-us-form -->
+                    </div> <!-- /.col- -->
+                    <div class="col-lg-5 col-md-6 col-xs-12">
+                        <div class="contact-address">
+                            <h2>Don’t Hesitate to contact with us for any kind of information</h2>
+                            <p>Call us for imiditate support this number</p>
+                            <a href="#" class="tran3s">7982961976, <br>
+                                9560749965
+                            </a>
+                            <ul>
+                                <li><a href="https://bit.ly/2UQKasJ" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="https://twitter.com/getpinkfry" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                
+                            </ul>
+                        </div> <!-- /.contact-address -->
+                    </div> <!-- /.col- -->
+                </div> <!-- /.row -->
+            </div> <!-- /.conatiner -->
+
+            <!--Contact Form Validation Markup -->
+            <!-- Contact alert -->
+            <div class="alert-wrapper" id="alert-success">
+                <div id="success">
+                    <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    <div class="wrapper">
+                        <p>Your message was sent successfully.</p>
+                    </div>
+                </div>
+            </div> <!-- End of .alert_wrapper -->
+            <div class="alert-wrapper" id="alert-error">
+                <div id="error">
+                    <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    <div class="wrapper">
+                        <p>Sorry!Something Went Wrong.</p>
+                    </div>
+                </div>
+            </div> <!-- End of .alert_wrapper -->//
