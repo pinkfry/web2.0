@@ -1,13 +1,12 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-    '/',
-    '/services.html',
+    "/",
+    "services.html",
     '/team.html',
-    '/index.html',
-    '/about-us.html',
-    '/contact-us.html',
-
-    '/images/home/10.webp',
+    'index.html',
+    'about-us.html',
+    'contact-us.html',
+    'images/home/10.webp',
     '/images/home/11.webp',
     '/images/home/12.webp',
     '/images/home/13.webp',
@@ -44,8 +43,8 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open(CACHE_NAME)
         .then(function(cache) {
-            console.log('Opened cache');
-            return cache.addAll(urlsToCache);
+            console.log(cache);
+            cache.addAll(urlsToCache);
         })
     );
 });
