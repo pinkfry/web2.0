@@ -1,4 +1,4 @@
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'pinkfry-v1';
 var urlsToCache = [
     "/",
     "services.html",
@@ -6,6 +6,7 @@ var urlsToCache = [
     'index.html',
     'about-us.html',
     'contact-us.html',
+    "offline.json",
     'images/home/10.webp',
     '/images/home/11.webp',
     '/images/home/12.webp',
@@ -49,6 +50,13 @@ self.addEventListener('install', function(event) {
     );
 });
 self.addEventListener('fetch', function(event) {
+
+    const parsedUrl = new URL(event.request.url)
+
+    // if (parsedUrl.host == "pinkfry.tech" && !navigator.onLine) {
+    //     event.respondWith(fetch("offline.json"));
+    // } else {
+
     event.respondWith(
         caches.match(event.request)
         .then(function(response) {
@@ -80,8 +88,19 @@ self.addEventListener('fetch', function(event) {
             );
         })
     );
+    // }
 });
 
 self.addEventListener('activate', function(event) {
-    console.log('activating...')
+    const cacheWhitelist = ["pinkfry-v1"]
+    event.waitUntil(
+        caches.keys()
+        .then(names => {
+            Promise.all(names.map(cachename => {
+                if (cacheWhitelist.indexOf(cachename) === -1) {
+                    return caches.delete(cachename)
+                }
+            }))
+        })
+    )
 })
