@@ -1,4 +1,4 @@
-var CACHE_NAME = 'pinkfry-v1';
+var CACHE_NAME = 'pinkfry-v2';
 var urlsToCache = [
     "/",
     "services.html",
@@ -92,7 +92,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-    const cacheWhitelist = ["pinkfry-v1"]
+    const cacheWhitelist = ["pinkfry-v2"]
     event.waitUntil(
         caches.keys()
         .then(names => {
