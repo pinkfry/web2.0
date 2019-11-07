@@ -2,8 +2,8 @@
 <html amp lang="en">
 
 <head>
-        <script async src="https://cdn.ampproject.org/v0.js"></script>
-        <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
     <title>PinkFry | Web Development | Mobile Development | SEO | Web Designing | Digital Marketing</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,73 @@
     <meta property="og:url" content="http://www.pinkfry.tech" />
 
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style><noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#F8E637">
     <!-- Windows Phone -->
@@ -47,19 +113,19 @@
 			<script src="vendor/respond.js"></script>
 		<![endif]-->
 
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-</script>
+    <script>
+        // if ('serviceWorker' in navigator) {
+        //     window.addEventListener('load', function () {
+        //         navigator.serviceWorker.register('/sw.js').then(function (registration) {
+        //             // Registration was successful
+        //             console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        //         }, function (err) {
+        //             // registration failed :(
+        //             console.log('ServiceWorker registration failed: ', err);
+        //         });
+        //     });
+        // }
+    </script>
 </head>
 
 
@@ -140,6 +206,12 @@ if ('serviceWorker' in navigator) {
 
                                 </li>
                                 <li class=" menu-list"><a href="team.html" class="tran3s">Team</a>
+
+                                </li>
+                                <li class=" menu-list"><a href="portfolio.html" class="tran3s">Portfolio</a>
+
+                                </li>
+                                <li class=" menu-list"><a href="products.html" class="tran3s">Products</a>
 
                                 </li>
                                 <li class="menu-list"><a href="contact-us.html" class="tran3s">Contact Us</a></li>
@@ -291,14 +363,14 @@ if ('serviceWorker' in navigator) {
 			============================================== 
 			-->
         <div class="more-about-us">
-            <div class="image-box">
+            <div class="image-box" style="margin-top:-110px">
                 <svg version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" width="854" height="632">
                     <clipPath class="clip1">
                         <use xlink:href="#shape-one" />
                     </clipPath>
                     <g clip-path="url(#shape-one)">
-                        <image width="854" height="632" href="images/home/13.jpg" class="image-shape">
+                        <image width="854" height="632" href="images/home/10.jpg" class="image-shape">
                         </image>
                     </g>
                 </svg>
@@ -310,7 +382,7 @@ if ('serviceWorker' in navigator) {
                         <div class="main-content">
                             <h2>We’r a dynamic team of creatives people &amp; Expert Developers.</h2>
                             <div class="main-wrapper">
-                                <h4>Apne Chlte Business Ko Online Dalo</h4>
+                                <h4>Apne Chlte Business Ko Online Dodaooo !</h4>
                                 <p>Looking for the best web designers, Developers and mobile app developers to take care
                                     of your small business or e-commerce site? You’ve come to the right place! PINKFRY
                                     helps you launching a fruitful online presence and also takes care of your
@@ -380,50 +452,70 @@ if ('serviceWorker' in navigator) {
 				Our Portfolio
 			============================================== 
 			-->
-        <!-- <div class="our-portfolio">
+        <div class="our-portfolio">
             <div class="container">
                 <div class="theme-title">
                     <h6>Recent work</h6>
                     <h2>We’ve done lot’s of work, Let’s <br>Check some from here</h2>
-                    <a href="portfolio-v1.html" class="tran3s">See All projects</a>
-                </div> 
-            </div> 
+                    <a href="portfolio.html" class="tran3s">See All projects</a>
+                </div>
+            </div>
 
             <div class="wrapper">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="portfolio-slider">
                         <div class="item">
-                            <div class="image">
-                                <img src="images/portfolio/1.webp" alt="">
-                                <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/1.webp"
-                                        class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                            <div class="image image-ht">
+                                <img src="images/portfolio/Balaji.jpg" class="img-body" alt="pinkfry_balajienterprise">
+                                <div class="opacity tran4s"><a data-fancybox="project"
+                                        href="images/portfolio/Balaji.jpg" class="tran3s"
+                                        title="We’ve done lot’s of work, Let’s Check"></a></div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="image">
-                                <img src="images/portfolio/2.webp" alt="">
-                                <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/2.webp"
-                                        class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                            <div class="image image-ht">
+                                <img src="images/portfolio/barknbite.jpg" alt="pinkfry_barknbite" class="img-body">
+                                <div class="opacity tran4s"><a data-fancybox="project"
+                                        href="images/portfolio/barknbite.jpg" class="tran3s"
+                                        title="We’ve done lot’s of work, Let’s Check"></a></div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="image">
-                                <img src="images/portfolio/3.webp" alt="">
-                                <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/3.webp"
-                                        class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                            <div class="image image-ht">
+                                <img src="images/portfolio/LMASSSAM.jpg" alt="pinkfry_lmassamtea" class="img-body">
+                                <div class="opacity tran4s"><a data-fancybox="project"
+                                        href="images/portfolio/LMASSSAM.jpg" class="tran3s"
+                                        title="We’ve done lot’s of work, Let’s Check"></a></div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="image">
-                                <img src="images/portfolio/4.webp" alt="">
-                                <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.webp"
-                                        class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                            <div class="image image-ht">
+                                <img src="images/portfolio/SDMC.jpg" alt="pinkfry_sdmc">
+                                <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/SDMC.jpg"
+                                        class="img-body" class="tran3s"
+                                        title="We’ve done lot’s of work, Let’s Check"></a></div>
                             </div>
                         </div>
-                    </div> 
-                </div> 
-            </div> 
-        </div>  -->
+                        <div class="item">
+                            <div class="image image-ht">
+                                <img src="images/portfolio/yogikit.jpg" alt="pinkfry_yogikitworld" class="img-body">
+                                <div class="opacity tran4s"><a data-fancybox="project"
+                                        href="images/portfolio/yogikit.jpg" class="tran3s"
+                                        title="We’ve done lot’s of work, Let’s Check"></a></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image image-ht">
+                                <img src="images/portfolio/Zalonin.jpg" alt="pinkfry_zalonin" class="img-body">
+                                <div class="opacity tran4s"><a data-fancybox="project"
+                                        href="images/portfolio/Zalonin.jpg" class="tran3s"
+                                        title="We’ve done lot’s of work, Let’s Check"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
 
 
         <!-- 
@@ -647,6 +739,16 @@ if ('serviceWorker' in navigator) {
                             <li><a href="services.html" class="tran3s">Website Development</a></li>
                             <li><a href="services.html" class="tran3s">Designing</a></li>
                             <li><a href="services.html" class="tran3s">Marketing & Promotions</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 footer-list">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="#" class="tran3s">Poket Folio</a></li>
+                            <li><a href="#" class="tran3s">Digi Khata</a></li>
+                            <li><a href="#" class="tran3s">BMV</a></li>
+                            <li><a href="#" class="tran3s">Noti Book</a></li>
 
                         </ul>
                     </div>

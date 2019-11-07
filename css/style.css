@@ -91,7 +91,57 @@
 ====================================================================
 
  ***/
+.t{
+top: -15px;
+ }
+.f-15{
+  font-size: 15px;
+}
+.no-border{
+  border-bottom: none;
+  border-top: none;
+}
+.under-dev{
+  background: #8854d0;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  box-shadow: 0 2px 16px #a55eea;
+}
+.under-live{
+  background:  #20bf6b;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  box-shadow: 0 2px 16px #26de81;
+ 
+}
+.under-mat{
+  background:#f7b731;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  box-shadow: 0 2px 16px #fed330;
+ 
+}
+.under-com{
+  background:#2d98da;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  box-shadow: 0 2px 16px #45aaf2;
+ 
+}
 
+}
+ .image-ht{
+   height: 250px;
+ }
+ .img-body{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
 .process{
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -1082,7 +1132,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   margin: 5px 0 40px 0;
 }
 /*------------------------ Our Portfolio ----------------------*/
-.our-portfolio {padding: 180px 0 200px 0;}
+.our-portfolio {padding: 60px 0 0px 0;}
 .our-portfolio .theme-title:before {
   content: 'C';
   font-size: 300px;
