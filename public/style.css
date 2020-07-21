@@ -108,6 +108,13 @@ a:focus {
   border-radius: 20px;
   margin-bottom: 20px;
 }
+.new-span{
+  font-size: 10px;
+  /* margin-top: -15px; */
+  position: fixed;
+  top: 30px;
+  color: #0099ff;
+}
 
 .btn {
   font-weight: 500; }
